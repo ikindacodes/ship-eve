@@ -42,7 +42,7 @@ importers:
         specifier: 'catalog:'
         version: 4.4.3
     devDependencies:
-      '@evedence/typescript-config':
+      '@ship-eve/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@types/node':

@@ -1,5 +1,5 @@
 {
-  "name": "@evedence/typescript-config",
+  "name": "@ship-eve/typescript-config",
   "private": true,
   "exports": {
     "./base.json": "./base.json",

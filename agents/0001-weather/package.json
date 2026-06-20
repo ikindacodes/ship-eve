@@ -1,5 +1,5 @@
 {
-  "name": "@evedence/0001-weather",
+  "name": "@ship-eve/0001-weather",
   "private": true,
   "type": "module",
   "imports": {
@@ -17,7 +17,7 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@evedence/typescript-config": "workspace:*",
+    "@ship-eve/typescript-config": "workspace:*",
     "@types/node": "catalog:",
     "@typescript/native-preview": "catalog:"
   },

@@ -41,8 +41,8 @@ pnpm dev
 ### From the monorepo
 
 ```bash
-git clone https://github.com/ikindacodes/evedence.git
-cd evedence
+git clone https://github.com/ikindacodes/ship-eve.git
+cd ship-eve
 pnpm install
 cd agents/0001-weather
 cp .env.example .env
@@ -53,7 +53,7 @@ pnpm dev
 Or from the repo root:
 
 ```bash
-pnpm dev --filter @evedence/0001-weather
+pnpm dev --filter @ship-eve/0001-weather
 ```
 
 ## Try it

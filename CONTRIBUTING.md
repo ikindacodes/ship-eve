@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest in evedence.
+Thanks for your interest in ship-eve.
 
 ## What this repo is
 

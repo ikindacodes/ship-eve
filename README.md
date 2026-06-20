@@ -1,8 +1,6 @@
-# evedence
+# ship-eve
 
 A growing collection of runnable eve agents — clone them, run them locally, and learn from real-world examples that grow in complexity over time.
-
-Teaching explains the ideas. **evedence** proves they work.
 
 ## Agents
 
@@ -21,8 +19,8 @@ All agents in this repo use the AI Gateway for model inference. Direct provider 
 ## Quick start
 
 ```bash
-git clone https://github.com/ikindacodes/evedence.git
-cd evedence
+git clone https://github.com/ikindacodes/ship-eve.git
+cd ship-eve
 pnpm install
 cd agents/0001-weather
 cp .env.example .env
@@ -45,7 +43,7 @@ pnpm dev
 ## Monorepo layout
 
 ```
-evedence/
+ship-eve/
 ├── agents/       # Runnable eve agents (NNNN-slug)
 ├── apps/         # Future Next.js gallery and integrations
 └── packages/     # Shared TypeScript config and tooling
@@ -56,7 +54,7 @@ evedence/
 ```bash
 pnpm typecheck              # Typecheck all packages
 pnpm build                  # Build all agents
-pnpm dev --filter @evedence/0001-weather
+pnpm dev --filter @ship-eve/0001-weather
 ```
 
 ## Contributing
