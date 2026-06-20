@@ -1,5 +1,7 @@
 # ship-eve
 
+[![skills.sh](https://skills.sh/b/ikindacodes/ship-eve)](https://skills.sh/ikindacodes/ship-eve)
+
 A growing collection of runnable eve agents — clone them, run them locally, and learn from real-world examples that grow in complexity over time.
 
 ## Agents
@@ -13,8 +15,6 @@ A growing collection of runnable eve agents — clone them, run them locally, an
 
 
 ## Skills
-
-[skills.sh](https://skills.sh/ikindacodes/ship-eve)
 
 Install the **create-agent** skill to scaffold new eve agents through a guided design interview:
 
