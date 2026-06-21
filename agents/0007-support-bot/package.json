@@ -1,5 +1,5 @@
 {
-  "name": "@ship-eve/0007-support-bot",
+  "name": "0007-support-bot",
   "private": true,
   "type": "module",
   "imports": {

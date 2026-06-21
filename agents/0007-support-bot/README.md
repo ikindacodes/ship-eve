@@ -60,7 +60,7 @@ pnpm dev
 Or from the repo root:
 
 ```bash
-pnpm dev --filter @ship-eve/0007-support-bot
+pnpm dev --filter 0007-support-bot
 ```
 
 ## Try it
@@ -114,6 +114,10 @@ DOCS_PATH=./my-docs pnpm dev
 ```
 
 ## Troubleshooting
+
+**`Expected eval target "@ship-eve/…" but "0007-support-bot" is responding`**
+
+`eve eval` checks that the server identity matches `package.json` `name`. This agent uses `"name": "0007-support-bot"` (folder name) so eval and dev agree. Do not use a scoped name like `@ship-eve/0007-support-bot` here.
 
 **Eval failures after prompt changes**
 

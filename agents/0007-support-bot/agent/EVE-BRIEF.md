@@ -67,7 +67,7 @@ Answers TaskFlow product-support questions from bundled docs, with a regression 
 ## Project location
 
 - **Path:** `agents/0007-support-bot/`
-- **Package name:** `@ship-eve/0007-support-bot`
+- **Package name:** `0007-support-bot`
 
 ## Open questions
 
