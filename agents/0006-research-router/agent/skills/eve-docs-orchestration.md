@@ -1,14 +1,15 @@
-Use when the user asks for a comparison, research brief, or summary that requires reading sources and producing Summary / Findings / Sources output.
+Use when the user asks about eve — the framework, its docs, project layout, tools, skills, channels, subagents, durability, or how to build agents.
 
-# Research orchestration
+# Eve docs orchestration
 
-Apply this procedure for every research request.
+Apply this procedure for every eve documentation question.
 
 ## Step 1 — Delegate research
 
 Call the `researcher` subagent with:
 
 - The user's full question in `message`
+- An explicit instruction: *"Call fetch_url first for the live SOURCE_URL (default: eve introduction). Use bundled eve doc summaries for supplementary detail. Answer only from source material — this is about the eve framework, not unrelated topics."*
 - `outputSchema` matching:
 
 ```json
@@ -89,10 +90,20 @@ Format the writer output as markdown:
 
 Keep the writer's wording. Do not add claims beyond the writer output.
 
+## Example questions
+
+| User asks | Researcher should |
+|-----------|-------------------|
+| *What is eve?* | fetch_url + `introduction.md` |
+| *How does eve name tools?* | fetch_url + `tools-and-skills.md` |
+| *When do I add subagents/?* | fetch_url + `project-layout.md` |
+| *What makes sessions durable?* | fetch_url + `introduction.md` |
+
 ## Guardrails
 
 - Always load this skill before delegating.
-- Never read bundled sources directly — that is the researcher's job.
+- Never read sources directly — that is the researcher's job.
 - Never skip `researcher` or `writer`.
 - Do not use the built-in `agent` tool.
 - Do not run subagents in parallel.
+- Decline or redirect questions unrelated to eve documentation.

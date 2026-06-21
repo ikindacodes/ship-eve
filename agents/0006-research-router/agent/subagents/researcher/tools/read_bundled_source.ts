@@ -4,12 +4,12 @@ import { z } from "zod";
 
 export default defineTool({
   description:
-    "Read a bundled markdown source from data/sources/ by filename (e.g. sqlite-overview.md).",
+    "Read a bundled eve documentation summary from data/sources/ by filename (e.g. introduction.md).",
   inputSchema: z.object({
     filename: z
       .string()
       .min(1)
-      .describe("Markdown filename in data/sources/, e.g. postgres-overview.md"),
+      .describe("Markdown filename in data/sources/, e.g. introduction.md"),
   }),
   async execute({ filename }) {
     return readBundledSource(filename);

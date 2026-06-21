@@ -2,6 +2,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import { basename, join, resolve } from "node:path";
 
 const SOURCES_DIR = "./data/sources";
+export const DEFAULT_SOURCE_URL = "https://eve.dev/docs/introduction";
 
 export function resolveSourcesDir(dir = process.env.SOURCES_DIR): string {
   const relative = dir?.trim() || SOURCES_DIR;
@@ -42,7 +43,36 @@ function extractTitle(markdown: string): string | null {
 
 export function sourceUrlFromEnv(url = process.env.SOURCE_URL): string | null {
   const trimmed = url?.trim();
-  return trimmed || null;
+  if (trimmed === "none") {
+    return null;
+  }
+
+  return trimmed || DEFAULT_SOURCE_URL;
+}
+
+function stripHtmlToText(html: string): { title: string | null; text: string } {
+  const titleMatch = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+  const title = titleMatch?.[1]?.replace(/<[^>]+>/g, "").trim() || null;
+
+  const withoutNoise = html
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ");
+
+  const text = withoutNoise
+    .replace(/<\/(p|div|h[1-6]|li|tr|section|article|br)>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/&quot;/gi, '"')
+    .replace(/\s+\n/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .replace(/[ \t]{2,}/g, " ")
+    .trim();
+
+  return { title, text };
 }
 
 export async function fetchSourceUrl(url = sourceUrlFromEnv()) {
@@ -50,6 +80,7 @@ export async function fetchSourceUrl(url = sourceUrlFromEnv()) {
     return {
       configured: false as const,
       url: null,
+      title: null,
       content: null,
       contentType: null,
     };
@@ -64,12 +95,25 @@ export async function fetchSourceUrl(url = sourceUrlFromEnv()) {
   }
 
   const contentType = response.headers.get("content-type");
-  const content = await response.text();
+  const raw = await response.text();
+  const isHtml = contentType?.includes("text/html") || raw.trimStart().startsWith("<!");
+
+  if (isHtml) {
+    const { title, text } = stripHtmlToText(raw);
+    return {
+      configured: true as const,
+      url,
+      title,
+      content: text,
+      contentType,
+    };
+  }
 
   return {
     configured: true as const,
     url,
-    content,
+    title: null,
+    content: raw,
     contentType,
   };
 }
