@@ -9,6 +9,7 @@ Living index of shipped agents. Update this when adding a new agent — it feeds
 | 0003 | standup-bot | Personal standup from GitHub PRs and issues | `tools`, `channels`, `skills`, `connections` |
 | 0004 | csv-analyst | CSV data Q&A with Python sandbox analysis | `tools`, `channels`, `skills`, `sandbox` |
 | 0005 | digest-bot | Weekday tech digest from a single RSS feed | `tools`, `channels`, `skills`, `schedules` |
+| 0007 | support-bot | TaskFlow support Q&A with regression eval suite | `tools`, `channels`, `skills`, `evals` |
 
 ## Eve surfaces key
 

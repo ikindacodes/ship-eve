@@ -14,6 +14,7 @@ A growing collection of runnable eve agents — clone them, run them locally, an
 | 0003 | [standup-bot](./agents/0003-standup-bot/) | Personal standup from GitHub activity | tools, channels, skills, connections |
 | 0004 | [csv-analyst](./agents/0004-csv-analyst/) | CSV data Q&A with Python sandbox analysis | tools, channels, skills, sandbox |
 | 0005 | [digest-bot](./agents/0005-digest-bot/) | Weekday tech digest from a single RSS feed | tools, channels, skills, schedules |
+| 0007 | [support-bot](./agents/0007-support-bot/) | TaskFlow support Q&A with regression eval suite | tools, channels, skills, evals |
 
 
 ## Skills
