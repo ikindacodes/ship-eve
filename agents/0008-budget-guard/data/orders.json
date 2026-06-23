@@ -1,0 +1,1082 @@
+[
+  {
+    "order_id": 1001,
+    "region": "East",
+    "product": "USB-C Hub",
+    "quantity": 4,
+    "unit_price": 32,
+    "order_date": "2024-01-01"
+  },
+  {
+    "order_id": 1002,
+    "region": "South",
+    "product": "Wireless Mouse",
+    "quantity": 2,
+    "unit_price": 29,
+    "order_date": "2024-01-03"
+  },
+  {
+    "order_id": 1003,
+    "region": "West",
+    "product": "Monitor Stand",
+    "quantity": 5,
+    "unit_price": 56,
+    "order_date": "2024-01-03"
+  },
+  {
+    "order_id": 1004,
+    "region": "Central",
+    "product": "Monitor Stand",
+    "quantity": 3,
+    "unit_price": 43,
+    "order_date": "2024-01-05"
+  },
+  {
+    "order_id": 1005,
+    "region": "West",
+    "product": "Keyboard",
+    "quantity": 1,
+    "unit_price": 70,
+    "order_date": "2024-01-07"
+  },
+  {
+    "order_id": 1006,
+    "region": "East",
+    "product": "Headphones",
+    "quantity": 4,
+    "unit_price": 67,
+    "order_date": "2024-01-07"
+  },
+  {
+    "order_id": 1007,
+    "region": "South",
+    "product": "Headphones",
+    "quantity": 2,
+    "unit_price": 64,
+    "order_date": "2024-01-09"
+  },
+  {
+    "order_id": 1008,
+    "region": "East",
+    "product": "Docking Station",
+    "quantity": 5,
+    "unit_price": 81,
+    "order_date": "2024-01-11"
+  },
+  {
+    "order_id": 1009,
+    "region": "Central",
+    "product": "Laptop Sleeve",
+    "quantity": 3,
+    "unit_price": 78,
+    "order_date": "2024-01-11"
+  },
+  {
+    "order_id": 1010,
+    "region": "West",
+    "product": "Laptop Sleeve",
+    "quantity": 1,
+    "unit_price": 105,
+    "order_date": "2024-01-13"
+  },
+  {
+    "order_id": 1011,
+    "region": "Central",
+    "product": "USB-C Hub",
+    "quantity": 4,
+    "unit_price": 92,
+    "order_date": "2024-01-15"
+  },
+  {
+    "order_id": 1012,
+    "region": "South",
+    "product": "Desk Lamp",
+    "quantity": 2,
+    "unit_price": 99,
+    "order_date": "2024-01-15"
+  },
+  {
+    "order_id": 1013,
+    "region": "East",
+    "product": "Desk Lamp",
+    "quantity": 5,
+    "unit_price": 116,
+    "order_date": "2024-01-17"
+  },
+  {
+    "order_id": 1014,
+    "region": "South",
+    "product": "Monitor Stand",
+    "quantity": 3,
+    "unit_price": 113,
+    "order_date": "2024-01-19"
+  },
+  {
+    "order_id": 1015,
+    "region": "West",
+    "product": "Webcam",
+    "quantity": 1,
+    "unit_price": 140,
+    "order_date": "2024-01-19"
+  },
+  {
+    "order_id": 1016,
+    "region": "Central",
+    "product": "Webcam",
+    "quantity": 4,
+    "unit_price": 127,
+    "order_date": "2024-01-21"
+  },
+  {
+    "order_id": 1017,
+    "region": "West",
+    "product": "Headphones",
+    "quantity": 2,
+    "unit_price": 154,
+    "order_date": "2024-01-23"
+  },
+  {
+    "order_id": 1018,
+    "region": "East",
+    "product": "Cable Kit",
+    "quantity": 5,
+    "unit_price": 151,
+    "order_date": "2024-01-23"
+  },
+  {
+    "order_id": 1019,
+    "region": "South",
+    "product": "Cable Kit",
+    "quantity": 3,
+    "unit_price": 148,
+    "order_date": "2024-01-25"
+  },
+  {
+    "order_id": 1020,
+    "region": "East",
+    "product": "Laptop Sleeve",
+    "quantity": 1,
+    "unit_price": 165,
+    "order_date": "2024-01-27"
+  },
+  {
+    "order_id": 1021,
+    "region": "Central",
+    "product": "Wireless Mouse",
+    "quantity": 4,
+    "unit_price": 162,
+    "order_date": "2024-01-27"
+  },
+  {
+    "order_id": 1022,
+    "region": "West",
+    "product": "Wireless Mouse",
+    "quantity": 2,
+    "unit_price": 189,
+    "order_date": "2024-01-29"
+  },
+  {
+    "order_id": 1023,
+    "region": "Central",
+    "product": "Desk Lamp",
+    "quantity": 5,
+    "unit_price": 176,
+    "order_date": "2024-01-31"
+  },
+  {
+    "order_id": 1024,
+    "region": "South",
+    "product": "Keyboard",
+    "quantity": 3,
+    "unit_price": 183,
+    "order_date": "2024-01-31"
+  },
+  {
+    "order_id": 1025,
+    "region": "East",
+    "product": "Keyboard",
+    "quantity": 1,
+    "unit_price": 200,
+    "order_date": "2024-02-02"
+  },
+  {
+    "order_id": 1026,
+    "region": "South",
+    "product": "Webcam",
+    "quantity": 4,
+    "unit_price": 197,
+    "order_date": "2024-02-04"
+  },
+  {
+    "order_id": 1027,
+    "region": "West",
+    "product": "Docking Station",
+    "quantity": 2,
+    "unit_price": 224,
+    "order_date": "2024-02-04"
+  },
+  {
+    "order_id": 1028,
+    "region": "Central",
+    "product": "Docking Station",
+    "quantity": 5,
+    "unit_price": 211,
+    "order_date": "2024-02-06"
+  },
+  {
+    "order_id": 1029,
+    "region": "West",
+    "product": "Cable Kit",
+    "quantity": 3,
+    "unit_price": 38,
+    "order_date": "2024-02-08"
+  },
+  {
+    "order_id": 1030,
+    "region": "East",
+    "product": "USB-C Hub",
+    "quantity": 1,
+    "unit_price": 35,
+    "order_date": "2024-02-08"
+  },
+  {
+    "order_id": 1031,
+    "region": "South",
+    "product": "USB-C Hub",
+    "quantity": 4,
+    "unit_price": 32,
+    "order_date": "2024-02-10"
+  },
+  {
+    "order_id": 1032,
+    "region": "East",
+    "product": "Wireless Mouse",
+    "quantity": 2,
+    "unit_price": 49,
+    "order_date": "2024-02-12"
+  },
+  {
+    "order_id": 1033,
+    "region": "Central",
+    "product": "Monitor Stand",
+    "quantity": 5,
+    "unit_price": 46,
+    "order_date": "2024-02-12"
+  },
+  {
+    "order_id": 1034,
+    "region": "West",
+    "product": "Monitor Stand",
+    "quantity": 3,
+    "unit_price": 73,
+    "order_date": "2024-02-14"
+  },
+  {
+    "order_id": 1035,
+    "region": "Central",
+    "product": "Keyboard",
+    "quantity": 1,
+    "unit_price": 60,
+    "order_date": "2024-02-16"
+  },
+  {
+    "order_id": 1036,
+    "region": "South",
+    "product": "Headphones",
+    "quantity": 4,
+    "unit_price": 67,
+    "order_date": "2024-02-16"
+  },
+  {
+    "order_id": 1037,
+    "region": "East",
+    "product": "Headphones",
+    "quantity": 2,
+    "unit_price": 84,
+    "order_date": "2024-02-18"
+  },
+  {
+    "order_id": 1038,
+    "region": "South",
+    "product": "Docking Station",
+    "quantity": 5,
+    "unit_price": 81,
+    "order_date": "2024-02-20"
+  },
+  {
+    "order_id": 1039,
+    "region": "West",
+    "product": "Laptop Sleeve",
+    "quantity": 3,
+    "unit_price": 108,
+    "order_date": "2024-02-20"
+  },
+  {
+    "order_id": 1040,
+    "region": "Central",
+    "product": "Laptop Sleeve",
+    "quantity": 1,
+    "unit_price": 95,
+    "order_date": "2024-02-22"
+  },
+  {
+    "order_id": 1041,
+    "region": "West",
+    "product": "USB-C Hub",
+    "quantity": 4,
+    "unit_price": 122,
+    "order_date": "2024-02-24"
+  },
+  {
+    "order_id": 1042,
+    "region": "East",
+    "product": "Desk Lamp",
+    "quantity": 2,
+    "unit_price": 119,
+    "order_date": "2024-02-24"
+  },
+  {
+    "order_id": 1043,
+    "region": "South",
+    "product": "Desk Lamp",
+    "quantity": 5,
+    "unit_price": 116,
+    "order_date": "2024-02-26"
+  },
+  {
+    "order_id": 1044,
+    "region": "East",
+    "product": "Monitor Stand",
+    "quantity": 3,
+    "unit_price": 133,
+    "order_date": "2024-02-28"
+  },
+  {
+    "order_id": 1045,
+    "region": "Central",
+    "product": "Webcam",
+    "quantity": 1,
+    "unit_price": 130,
+    "order_date": "2024-02-28"
+  },
+  {
+    "order_id": 1046,
+    "region": "West",
+    "product": "Webcam",
+    "quantity": 4,
+    "unit_price": 157,
+    "order_date": "2024-03-01"
+  },
+  {
+    "order_id": 1047,
+    "region": "Central",
+    "product": "Headphones",
+    "quantity": 2,
+    "unit_price": 144,
+    "order_date": "2024-03-03"
+  },
+  {
+    "order_id": 1048,
+    "region": "South",
+    "product": "Cable Kit",
+    "quantity": 5,
+    "unit_price": 151,
+    "order_date": "2024-03-03"
+  },
+  {
+    "order_id": 1049,
+    "region": "East",
+    "product": "Cable Kit",
+    "quantity": 3,
+    "unit_price": 168,
+    "order_date": "2024-03-05"
+  },
+  {
+    "order_id": 1050,
+    "region": "South",
+    "product": "Laptop Sleeve",
+    "quantity": 1,
+    "unit_price": 165,
+    "order_date": "2024-03-07"
+  },
+  {
+    "order_id": 1051,
+    "region": "West",
+    "product": "Wireless Mouse",
+    "quantity": 4,
+    "unit_price": 192,
+    "order_date": "2024-03-07"
+  },
+  {
+    "order_id": 1052,
+    "region": "Central",
+    "product": "Wireless Mouse",
+    "quantity": 2,
+    "unit_price": 179,
+    "order_date": "2024-03-09"
+  },
+  {
+    "order_id": 1053,
+    "region": "West",
+    "product": "Desk Lamp",
+    "quantity": 5,
+    "unit_price": 206,
+    "order_date": "2024-03-10"
+  },
+  {
+    "order_id": 1054,
+    "region": "East",
+    "product": "Keyboard",
+    "quantity": 3,
+    "unit_price": 203,
+    "order_date": "2024-03-10"
+  },
+  {
+    "order_id": 1055,
+    "region": "South",
+    "product": "Keyboard",
+    "quantity": 1,
+    "unit_price": 200,
+    "order_date": "2024-03-12"
+  },
+  {
+    "order_id": 1056,
+    "region": "East",
+    "product": "Webcam",
+    "quantity": 4,
+    "unit_price": 217,
+    "order_date": "2024-03-14"
+  },
+  {
+    "order_id": 1057,
+    "region": "Central",
+    "product": "Docking Station",
+    "quantity": 2,
+    "unit_price": 214,
+    "order_date": "2024-03-14"
+  },
+  {
+    "order_id": 1058,
+    "region": "West",
+    "product": "Docking Station",
+    "quantity": 5,
+    "unit_price": 41,
+    "order_date": "2024-03-16"
+  },
+  {
+    "order_id": 1059,
+    "region": "Central",
+    "product": "Cable Kit",
+    "quantity": 3,
+    "unit_price": 28,
+    "order_date": "2024-03-18"
+  },
+  {
+    "order_id": 1060,
+    "region": "South",
+    "product": "USB-C Hub",
+    "quantity": 1,
+    "unit_price": 35,
+    "order_date": "2024-03-18"
+  },
+  {
+    "order_id": 1061,
+    "region": "East",
+    "product": "USB-C Hub",
+    "quantity": 4,
+    "unit_price": 52,
+    "order_date": "2024-03-20"
+  },
+  {
+    "order_id": 1062,
+    "region": "South",
+    "product": "Wireless Mouse",
+    "quantity": 2,
+    "unit_price": 49,
+    "order_date": "2024-03-22"
+  },
+  {
+    "order_id": 1063,
+    "region": "West",
+    "product": "Monitor Stand",
+    "quantity": 5,
+    "unit_price": 76,
+    "order_date": "2024-03-22"
+  },
+  {
+    "order_id": 1064,
+    "region": "Central",
+    "product": "Monitor Stand",
+    "quantity": 3,
+    "unit_price": 63,
+    "order_date": "2024-03-24"
+  },
+  {
+    "order_id": 1065,
+    "region": "West",
+    "product": "Keyboard",
+    "quantity": 1,
+    "unit_price": 90,
+    "order_date": "2024-03-26"
+  },
+  {
+    "order_id": 1066,
+    "region": "East",
+    "product": "Headphones",
+    "quantity": 4,
+    "unit_price": 87,
+    "order_date": "2024-03-26"
+  },
+  {
+    "order_id": 1067,
+    "region": "South",
+    "product": "Headphones",
+    "quantity": 2,
+    "unit_price": 84,
+    "order_date": "2024-03-28"
+  },
+  {
+    "order_id": 1068,
+    "region": "East",
+    "product": "Docking Station",
+    "quantity": 5,
+    "unit_price": 101,
+    "order_date": "2024-03-30"
+  },
+  {
+    "order_id": 1069,
+    "region": "Central",
+    "product": "Laptop Sleeve",
+    "quantity": 3,
+    "unit_price": 98,
+    "order_date": "2024-03-30"
+  },
+  {
+    "order_id": 1070,
+    "region": "West",
+    "product": "Laptop Sleeve",
+    "quantity": 1,
+    "unit_price": 125,
+    "order_date": "2024-04-01"
+  },
+  {
+    "order_id": 1071,
+    "region": "Central",
+    "product": "USB-C Hub",
+    "quantity": 4,
+    "unit_price": 112,
+    "order_date": "2024-04-03"
+  },
+  {
+    "order_id": 1072,
+    "region": "South",
+    "product": "Desk Lamp",
+    "quantity": 2,
+    "unit_price": 119,
+    "order_date": "2024-04-03"
+  },
+  {
+    "order_id": 1073,
+    "region": "East",
+    "product": "Desk Lamp",
+    "quantity": 5,
+    "unit_price": 136,
+    "order_date": "2024-04-05"
+  },
+  {
+    "order_id": 1074,
+    "region": "South",
+    "product": "Monitor Stand",
+    "quantity": 3,
+    "unit_price": 133,
+    "order_date": "2024-04-07"
+  },
+  {
+    "order_id": 1075,
+    "region": "West",
+    "product": "Webcam",
+    "quantity": 1,
+    "unit_price": 160,
+    "order_date": "2024-04-07"
+  },
+  {
+    "order_id": 1076,
+    "region": "Central",
+    "product": "Webcam",
+    "quantity": 4,
+    "unit_price": 147,
+    "order_date": "2024-04-09"
+  },
+  {
+    "order_id": 1077,
+    "region": "West",
+    "product": "Headphones",
+    "quantity": 2,
+    "unit_price": 174,
+    "order_date": "2024-04-11"
+  },
+  {
+    "order_id": 1078,
+    "region": "East",
+    "product": "Cable Kit",
+    "quantity": 5,
+    "unit_price": 171,
+    "order_date": "2024-04-11"
+  },
+  {
+    "order_id": 1079,
+    "region": "South",
+    "product": "Cable Kit",
+    "quantity": 3,
+    "unit_price": 168,
+    "order_date": "2024-04-13"
+  },
+  {
+    "order_id": 1080,
+    "region": "East",
+    "product": "Laptop Sleeve",
+    "quantity": 1,
+    "unit_price": 185,
+    "order_date": "2024-04-15"
+  },
+  {
+    "order_id": 1081,
+    "region": "Central",
+    "product": "Wireless Mouse",
+    "quantity": 4,
+    "unit_price": 182,
+    "order_date": "2024-04-15"
+  },
+  {
+    "order_id": 1082,
+    "region": "West",
+    "product": "Wireless Mouse",
+    "quantity": 2,
+    "unit_price": 209,
+    "order_date": "2024-04-17"
+  },
+  {
+    "order_id": 1083,
+    "region": "Central",
+    "product": "Desk Lamp",
+    "quantity": 5,
+    "unit_price": 196,
+    "order_date": "2024-04-19"
+  },
+  {
+    "order_id": 1084,
+    "region": "South",
+    "product": "Keyboard",
+    "quantity": 3,
+    "unit_price": 203,
+    "order_date": "2024-04-19"
+  },
+  {
+    "order_id": 1085,
+    "region": "East",
+    "product": "Keyboard",
+    "quantity": 1,
+    "unit_price": 220,
+    "order_date": "2024-04-21"
+  },
+  {
+    "order_id": 1086,
+    "region": "South",
+    "product": "Webcam",
+    "quantity": 4,
+    "unit_price": 17,
+    "order_date": "2024-04-23"
+  },
+  {
+    "order_id": 1087,
+    "region": "West",
+    "product": "Docking Station",
+    "quantity": 2,
+    "unit_price": 44,
+    "order_date": "2024-04-23"
+  },
+  {
+    "order_id": 1088,
+    "region": "Central",
+    "product": "Docking Station",
+    "quantity": 5,
+    "unit_price": 31,
+    "order_date": "2024-04-25"
+  },
+  {
+    "order_id": 1089,
+    "region": "West",
+    "product": "Cable Kit",
+    "quantity": 3,
+    "unit_price": 58,
+    "order_date": "2024-04-27"
+  },
+  {
+    "order_id": 1090,
+    "region": "East",
+    "product": "USB-C Hub",
+    "quantity": 1,
+    "unit_price": 55,
+    "order_date": "2024-04-27"
+  },
+  {
+    "order_id": 1091,
+    "region": "South",
+    "product": "USB-C Hub",
+    "quantity": 4,
+    "unit_price": 52,
+    "order_date": "2024-04-29"
+  },
+  {
+    "order_id": 1092,
+    "region": "East",
+    "product": "Wireless Mouse",
+    "quantity": 2,
+    "unit_price": 69,
+    "order_date": "2024-05-01"
+  },
+  {
+    "order_id": 1093,
+    "region": "Central",
+    "product": "Monitor Stand",
+    "quantity": 5,
+    "unit_price": 66,
+    "order_date": "2024-05-01"
+  },
+  {
+    "order_id": 1094,
+    "region": "West",
+    "product": "Monitor Stand",
+    "quantity": 3,
+    "unit_price": 93,
+    "order_date": "2024-05-03"
+  },
+  {
+    "order_id": 1095,
+    "region": "Central",
+    "product": "Keyboard",
+    "quantity": 1,
+    "unit_price": 80,
+    "order_date": "2024-05-05"
+  },
+  {
+    "order_id": 1096,
+    "region": "South",
+    "product": "Headphones",
+    "quantity": 4,
+    "unit_price": 87,
+    "order_date": "2024-05-05"
+  },
+  {
+    "order_id": 1097,
+    "region": "East",
+    "product": "Headphones",
+    "quantity": 2,
+    "unit_price": 104,
+    "order_date": "2024-05-07"
+  },
+  {
+    "order_id": 1098,
+    "region": "South",
+    "product": "Docking Station",
+    "quantity": 5,
+    "unit_price": 101,
+    "order_date": "2024-05-09"
+  },
+  {
+    "order_id": 1099,
+    "region": "West",
+    "product": "Laptop Sleeve",
+    "quantity": 3,
+    "unit_price": 128,
+    "order_date": "2024-05-09"
+  },
+  {
+    "order_id": 1100,
+    "region": "Central",
+    "product": "Laptop Sleeve",
+    "quantity": 1,
+    "unit_price": 115,
+    "order_date": "2024-05-11"
+  },
+  {
+    "order_id": 1101,
+    "region": "West",
+    "product": "USB-C Hub",
+    "quantity": 4,
+    "unit_price": 142,
+    "order_date": "2024-05-13"
+  },
+  {
+    "order_id": 1102,
+    "region": "East",
+    "product": "Desk Lamp",
+    "quantity": 2,
+    "unit_price": 139,
+    "order_date": "2024-05-13"
+  },
+  {
+    "order_id": 1103,
+    "region": "South",
+    "product": "Desk Lamp",
+    "quantity": 5,
+    "unit_price": 136,
+    "order_date": "2024-05-15"
+  },
+  {
+    "order_id": 1104,
+    "region": "East",
+    "product": "Monitor Stand",
+    "quantity": 3,
+    "unit_price": 153,
+    "order_date": "2024-05-17"
+  },
+  {
+    "order_id": 1105,
+    "region": "Central",
+    "product": "Webcam",
+    "quantity": 1,
+    "unit_price": 150,
+    "order_date": "2024-05-17"
+  },
+  {
+    "order_id": 1106,
+    "region": "West",
+    "product": "Webcam",
+    "quantity": 4,
+    "unit_price": 177,
+    "order_date": "2024-05-19"
+  },
+  {
+    "order_id": 1107,
+    "region": "Central",
+    "product": "Headphones",
+    "quantity": 2,
+    "unit_price": 164,
+    "order_date": "2024-05-21"
+  },
+  {
+    "order_id": 1108,
+    "region": "South",
+    "product": "Cable Kit",
+    "quantity": 5,
+    "unit_price": 171,
+    "order_date": "2024-05-21"
+  },
+  {
+    "order_id": 1109,
+    "region": "East",
+    "product": "Cable Kit",
+    "quantity": 3,
+    "unit_price": 188,
+    "order_date": "2024-05-23"
+  },
+  {
+    "order_id": 1110,
+    "region": "South",
+    "product": "Laptop Sleeve",
+    "quantity": 1,
+    "unit_price": 185,
+    "order_date": "2024-05-25"
+  },
+  {
+    "order_id": 1111,
+    "region": "West",
+    "product": "Wireless Mouse",
+    "quantity": 4,
+    "unit_price": 212,
+    "order_date": "2024-05-25"
+  },
+  {
+    "order_id": 1112,
+    "region": "Central",
+    "product": "Wireless Mouse",
+    "quantity": 2,
+    "unit_price": 199,
+    "order_date": "2024-05-27"
+  },
+  {
+    "order_id": 1113,
+    "region": "West",
+    "product": "Desk Lamp",
+    "quantity": 5,
+    "unit_price": 226,
+    "order_date": "2024-05-29"
+  },
+  {
+    "order_id": 1114,
+    "region": "East",
+    "product": "Keyboard",
+    "quantity": 3,
+    "unit_price": 223,
+    "order_date": "2024-05-29"
+  },
+  {
+    "order_id": 1115,
+    "region": "South",
+    "product": "Keyboard",
+    "quantity": 1,
+    "unit_price": 20,
+    "order_date": "2024-05-31"
+  },
+  {
+    "order_id": 1116,
+    "region": "East",
+    "product": "Webcam",
+    "quantity": 4,
+    "unit_price": 37,
+    "order_date": "2024-06-02"
+  },
+  {
+    "order_id": 1117,
+    "region": "Central",
+    "product": "Docking Station",
+    "quantity": 2,
+    "unit_price": 34,
+    "order_date": "2024-06-02"
+  },
+  {
+    "order_id": 1118,
+    "region": "West",
+    "product": "Docking Station",
+    "quantity": 5,
+    "unit_price": 61,
+    "order_date": "2024-06-04"
+  },
+  {
+    "order_id": 1119,
+    "region": "Central",
+    "product": "Cable Kit",
+    "quantity": 3,
+    "unit_price": 48,
+    "order_date": "2024-06-06"
+  },
+  {
+    "order_id": 1120,
+    "region": "South",
+    "product": "USB-C Hub",
+    "quantity": 1,
+    "unit_price": 55,
+    "order_date": "2024-06-06"
+  },
+  {
+    "order_id": 1121,
+    "region": "East",
+    "product": "USB-C Hub",
+    "quantity": 4,
+    "unit_price": 72,
+    "order_date": "2024-06-08"
+  },
+  {
+    "order_id": 1122,
+    "region": "South",
+    "product": "Wireless Mouse",
+    "quantity": 2,
+    "unit_price": 69,
+    "order_date": "2024-06-10"
+  },
+  {
+    "order_id": 1123,
+    "region": "West",
+    "product": "Monitor Stand",
+    "quantity": 5,
+    "unit_price": 96,
+    "order_date": "2024-06-10"
+  },
+  {
+    "order_id": 1124,
+    "region": "Central",
+    "product": "Monitor Stand",
+    "quantity": 3,
+    "unit_price": 83,
+    "order_date": "2024-06-12"
+  },
+  {
+    "order_id": 1125,
+    "region": "West",
+    "product": "Keyboard",
+    "quantity": 1,
+    "unit_price": 110,
+    "order_date": "2024-06-14"
+  },
+  {
+    "order_id": 1126,
+    "region": "East",
+    "product": "Headphones",
+    "quantity": 4,
+    "unit_price": 107,
+    "order_date": "2024-06-14"
+  },
+  {
+    "order_id": 1127,
+    "region": "South",
+    "product": "Headphones",
+    "quantity": 2,
+    "unit_price": 104,
+    "order_date": "2024-06-16"
+  },
+  {
+    "order_id": 1128,
+    "region": "East",
+    "product": "Docking Station",
+    "quantity": 5,
+    "unit_price": 121,
+    "order_date": "2024-06-18"
+  },
+  {
+    "order_id": 1129,
+    "region": "Central",
+    "product": "Laptop Sleeve",
+    "quantity": 3,
+    "unit_price": 118,
+    "order_date": "2024-06-18"
+  },
+  {
+    "order_id": 1130,
+    "region": "West",
+    "product": "Laptop Sleeve",
+    "quantity": 1,
+    "unit_price": 145,
+    "order_date": "2024-06-20"
+  },
+  {
+    "order_id": 1131,
+    "region": "Central",
+    "product": "USB-C Hub",
+    "quantity": 4,
+    "unit_price": 132,
+    "order_date": "2024-06-22"
+  },
+  {
+    "order_id": 1132,
+    "region": "South",
+    "product": "Desk Lamp",
+    "quantity": 2,
+    "unit_price": 139,
+    "order_date": "2024-06-22"
+  },
+  {
+    "order_id": 1133,
+    "region": "East",
+    "product": "Desk Lamp",
+    "quantity": 5,
+    "unit_price": 156,
+    "order_date": "2024-06-24"
+  },
+  {
+    "order_id": 1134,
+    "region": "South",
+    "product": "Monitor Stand",
+    "quantity": 3,
+    "unit_price": 153,
+    "order_date": "2024-06-26"
+  },
+  {
+    "order_id": 1135,
+    "region": "West",
+    "product": "Webcam",
+    "quantity": 1,
+    "unit_price": 180,
+    "order_date": "2024-06-26"
+  }
+]

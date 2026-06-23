@@ -16,6 +16,7 @@ A growing collection of runnable eve agents — clone them, run them locally, an
 | 0005 | [digest-bot](./agents/0005-digest-bot/) | Weekday tech digest from a single RSS feed | tools, channels, skills, schedules | schedules (cron) |
 | 0006 | [research-router](./agents/0006-research-router/) | Eve docs Q&A via researcher and writer subagents | tools, channels, skills, subagents | subagent delegation, structured output |
 | 0007 | [support-bot](./agents/0007-support-bot/) | TaskFlow support Q&A with regression eval suite | tools, channels, skills, evals | evals (regression suite) |
+| 0008 | [budget-guard](./agents/0008-budget-guard/) | Orders Q&A with per-turn query budget | tools, channels, skills, hooks | durable state (`defineState`), hooks, session context |
 
 
 ## Skills
