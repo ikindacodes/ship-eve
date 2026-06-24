@@ -12,6 +12,7 @@ Living index of shipped agents. Update this when adding a new agent — it feeds
 | 0006 | research-router | Eve docs Q&A via researcher and writer subagents | `tools`, `channels`, `skills`, `subagents` | subagent delegation, structured output (`outputSchema`) |
 | 0007 | support-bot | TaskFlow support Q&A with regression eval suite | `tools`, `channels`, `skills`, `evals` | evals (regression suite) |
 | 0008 | budget-guard | Orders Q&A with per-turn query budget | `tools`, `channels`, `skills`, `hooks` | durable state (`defineState`), hooks, session context |
+| 0009 | brand-voice | White-label support with env-driven persona | `tools`, `channels`, `skills`, `instructions` | `instructions.ts`, context control, typed tool |
 
 ## Eve surfaces key
 
