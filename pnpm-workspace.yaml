@@ -9,3 +9,18 @@ catalog:
   zod: 4.4.3
   "@types/node": 24.x
   "@typescript/native-preview": 7.0.0-dev.20260523.1
+
+allowBuilds:
+  sharp: false
+
+minimumReleaseAgeExclude:
+  - "@ai-sdk/*"
+  - "@rolldown/*"
+  - "@vercel/*"
+  - "@workflow/*"
+  - ai
+  - experimental-ai-sdk-code-mode
+  - eve
+  - nitro
+  - rolldown
+  - workflow
