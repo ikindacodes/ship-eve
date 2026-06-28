@@ -18,6 +18,7 @@ A growing collection of runnable eve agents — clone them, run them locally, an
 | 0007 | [support-bot](./agents/0007-support-bot/) | TaskFlow support Q&A with regression eval suite | tools, channels, skills, evals | evals (regression suite) |
 | 0008 | [budget-guard](./agents/0008-budget-guard/) | Orders Q&A with per-turn query budget | tools, channels, skills, hooks | durable state (`defineState`), hooks, session context |
 | 0009 | [brand-voice](./agents/0009-brand-voice/) | White-label support with env-driven persona | tools, channels, skills, instructions | `instructions.ts`, context control, typed tool |
+| 0010 | [json-placeholder](./agents/0010-json-placeholder/) | JSONPlaceholder REST router with six resource subagents | tools, channels, skills, subagents | subagent delegation, live external API, typed tool, context control |
 
 
 ## Skills
